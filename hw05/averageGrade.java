@@ -28,15 +28,15 @@ public class averageGrade{
                 break;
                 }
                 //inform user if input score is invalid
-            if ( grade <0 || grade >100){
-            System.out.print("Please enter a valid grade.\n");
+            if (grade <0 || grade >100){
+                System.out.print("Please enter a valid grade.\n");
                 continue;
-            }
+                }
             //calculate total grades, total counts and average grades
             totalGrade = totalGrade + grade;
             counts += 1;
             avgGrade = totalGrade / counts;
             
         }
-    }
-}
+    }//end of method
+}//end of class
