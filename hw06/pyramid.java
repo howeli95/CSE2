@@ -20,7 +20,7 @@ public class pyramid{ //define a class
                 System.out.print("*");
             }
         System.out.println();
-            
         }
+        
     }//end of the method
 }//end of the class
