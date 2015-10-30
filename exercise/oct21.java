@@ -6,7 +6,7 @@ void method1(float x)
 2. number of parameters
 void method1(int x)
 void method1(int x, int y)
-3. 
+3. sequence of parameters
 void method1(intx, boolean bol)
 void method1(boolean bol, int x)
 */
