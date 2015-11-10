@@ -1,3 +1,5 @@
+//System.out.println(Arrays.toString(arr));
+
 // two dimensional array
 
 public class nov4{
