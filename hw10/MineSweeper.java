@@ -18,7 +18,6 @@ public class MineSweeper{
         int numBomb = myScanner.nextInt();
         int x,y,i=0;
         
-        
        for(;i<numBomb;i++){
             x = (int) (Math.random()*n);
             y = (int) (Math.random()*n);

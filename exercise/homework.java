@@ -1,22 +1,19 @@
+import java.util.*;
 public class homework{
-    public static void main(String[] args){
-        
-        int[] arr1 = new int[20];
-        int[] arr2 = new int[20];
-        
-        for(int i=0;i<=19;i++){
-            arr1[i] = (int)(Math.random()*100);
-            arr2[i] = (int)(Math.random()*100);
-        }
-
-        for(int j=0;j<=19;j++){
-            for(int k=0;k<=19;k++){
-                if(arr1[j] == arr2[k]){
-                    System.out.println(arr1[j]);
-                }
-            }
-        }
-        
-
+    
+    
+    
+public static void main(String[] args){
+    int[] a = {10,8,3,-4,0,1,100,50,22,-5};
+    
+for (int i=1; i<6; i++){ 
+    for (int j=i; (j>0 && (a[j] < a[j-1])); j--){
+      int tmp = a[j];
+      a[j]=a[j-1];
+      a[j-1]=tmp;
     }
+  }
+  System.out.println(Arrays.toString(a));
+
+}
 }
